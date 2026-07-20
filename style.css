@@ -789,5 +789,8 @@ h6 {
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center top; /* adjust the crop */
+    object-position: center top;
+
+    display: block;
+    margin: 30px auto 0 auto; /* top | left/right | bottom */
 }
